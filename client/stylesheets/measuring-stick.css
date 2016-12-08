@@ -1,0 +1,28 @@
+.measuring-stick {
+  width: 3px;
+  height: 500px;
+  background: white;
+  border-radius: 5px;
+  margin-right: 80px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  .measuring-stick .k-mark {
+    width: 50px;
+    height: 50px;
+    background: #FDB714;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 23px; }
+  .measuring-stick .small-mark {
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%; }
+
+/*# sourceMappingURL=measuring-stick.css.map */

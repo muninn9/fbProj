@@ -1,0 +1,34 @@
+.tube-container {
+  width: 100%;
+  justify-content: center;
+  align-items: center; }
+
+.test-tube {
+  height: 500px;
+  width: 155px;
+  justify-content: flex-end;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 50% 85px;
+  border-bottom-left-radius: 50% 85px;
+  background: #53C6D7;
+  overflow: hidden;
+  padding: 5px;
+  border: 10px solid #00bfcf; }
+  .test-tube .heart-row {
+    width: 100%;
+    height: 33px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0; }
+    .test-tube .heart-row .heart {
+      background: #F50953;
+      border-radius: 50%;
+      margin: 2px;
+      overflow: hidden;
+      padding: 6px;
+      box-sizing: border-box;
+      justify-content: center;
+      align-items: center; }
+
+/*# sourceMappingURL=test-tube.css.map */
