@@ -4,7 +4,7 @@
   align-items: center; }
 
 .test-tube {
-  height: 500px;
+  height: 530px;
   width: 155px;
   justify-content: flex-end;
   border-top-right-radius: 10px;
@@ -14,21 +14,51 @@
   background: #53C6D7;
   overflow: hidden;
   padding: 5px;
-  border: 10px solid #00bfcf; }
+  border: 10px solid #00bfcf;
+  position: relative; }
   .test-tube .heart-row {
     width: 100%;
     height: 33px;
     justify-content: space-between;
     align-items: center;
     margin: 5px 0; }
-    .test-tube .heart-row .heart {
-      background: #F50953;
-      border-radius: 50%;
-      margin: 2px;
-      overflow: hidden;
-      padding: 6px;
-      box-sizing: border-box;
-      justify-content: center;
-      align-items: center; }
+  .test-tube .heart {
+    display: flex;
+    flex-direction: column;
+    background: #F50953;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 6px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: 2px solid #cb0b47; }
+  .test-tube .small {
+    height: 25px;
+    width: 25px; }
+  .test-tube .medium {
+    height: 40px;
+    width: 40px; }
+  .test-tube .large {
+    height: 60px;
+    width: 60px; }
+
+/*#circles-holder {
+  width:150px;
+  height:300px;
+  overflow:hidden;
+  margin:auto;
+  position:relative;
+  background:transparent;
+  border: 1px solid black;
+}
+
+.circle {
+  background:#EED;
+  border:1px solid blue;
+  position:absolute;
+  margin:40px
+}*/
 
 /*# sourceMappingURL=test-tube.css.map */

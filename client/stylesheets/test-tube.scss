@@ -7,7 +7,7 @@
 }
 
 .test-tube{
-  height:500px;
+  height:530px;
   width:155px;
   justify-content:flex-end;
   border-top-right-radius: 10px;
@@ -18,6 +18,7 @@
   overflow: hidden;
   padding:5px;
   border:10px solid $blue-border;
+  position: relative;
 
   .heart-row {
     width:100%;
@@ -26,17 +27,51 @@
     align-items: center;
     margin:5px 0;
 
-    .heart {
-      background: $red-heart;
-      border-radius:50%;
-      margin:2px;
-      overflow: hidden;
-      padding: 6px;
-      box-sizing: border-box;
-      justify-content: center;
-      align-items: center;
-    }
+
+  }
+  .heart {
+    display: flex;
+    flex-direction:column;
+    background: $red-heart;
+    border-radius:50%;
+    overflow: hidden;
+    padding: 6px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: 2px solid #cb0b47;
   }
 
+  .small {
+    height:25px;
+    width:25px;
+  }
+
+  .medium {
+    height:40px;
+    width:40px;
+  }
+
+  .large {
+    height:60px;
+    width:60px;
+  }
 }
 
+/*#circles-holder {
+  width:150px;
+  height:300px;
+  overflow:hidden;
+  margin:auto;
+  position:relative;
+  background:transparent;
+  border: 1px solid black;
+}
+
+.circle {
+  background:#EED;
+  border:1px solid blue;
+  position:absolute;
+  margin:40px
+}*/

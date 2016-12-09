@@ -4,10 +4,6 @@ import { Picker } from 'meteor/meteorhacks:picker';
 Picker.middleware(bodyParser.json());
 
 Picker.route('/webhooks/', (params, req, res) => {
-    console.log(params);
-    console.log(req.body);
-
-
     if (
         params.query['hub.mode'] == 'subscribe' &&
         params.query['hub.verify_token'] == '1234'

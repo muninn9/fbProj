@@ -6,14 +6,17 @@ export default createContainer(() => {
     const userHandle = Meteor.subscribe('user');
 
     let likes = 0;
-    if (Meteor.user() && Meteor.user().services) {
-        _.each(Meteor.user().services.facebook.posts.data, function(val) {
-            if (val.likes) likes += val.likes.data.length
+    if (Meteor.user() && Meteor.user().services && Meteor.user().services.facebook.likes && Meteor.user().services.facebook.likes.data) {
+        _.each(Meteor.user().services.facebook.likes.data, (val)=> {
+            if (val.created_time) {
+                const createdTime = new Date(val.created_time);
+                if (createdTime.getFullYear() == 2016) likes++
+            }
         });
     }
 
     return {
-        likes: likes + 2000,
+        likes: 2000,
         loading: !(userHandle.ready()),
         connected: Meteor.status().connected
     };

@@ -17,13 +17,15 @@ Meteor.methods({
            , headers:  { connection:  "keep-alive" }
        };
 
-       var params = { fields: "id,name,posts{likes}" };
+       var params = { fields: "id,name,posts{likes},likes.limit(3000),friends" };
 
        graph
            .setOptions(options)
            .get("me", params, Meteor.bindEnvironment(function (err, res) {
                Meteor.users.update({_id: user._id}, {$set:{
-                   "services.facebook.posts": res.posts
+                   "services.facebook.posts": res.posts,
+                   "services.facebook.likes": res.likes,
+                   "services.facebook.friends": res.friends
                }});
                if (res) future.return(res);
            }));

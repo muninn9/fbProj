@@ -28,7 +28,7 @@ export default class Login extends Component {
     render() {
         return (
             <div>
-                <button className="btn" onClick={this.login.bind(this)}>Login</button>
+                <button className="btn" onClick={this.login.bind(this)}>LOGIN</button>
             </div>
         )
     }
