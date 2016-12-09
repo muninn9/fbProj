@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6502e34d-e285-4d1e-b9b8-e76098274304" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/lib/heart-rows.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/measuring-stick.css" afterPath="$PROJECT_DIR$/client/stylesheets/measuring-stick.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/measuring-stick.scss" afterPath="$PROJECT_DIR$/client/stylesheets/measuring-stick.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/test-tube.css" afterPath="$PROJECT_DIR$/client/stylesheets/test-tube.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/test-tube.css.map" afterPath="$PROJECT_DIR$/client/stylesheets/test-tube.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/test-tube.scss" afterPath="$PROJECT_DIR$/client/stylesheets/test-tube.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imports/startup/server/endpoints.js" afterPath="$PROJECT_DIR$/imports/startup/server/endpoints.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imports/ui/components/Login.jsx" afterPath="$PROJECT_DIR$/imports/ui/components/Login.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imports/ui/components/TestTube.jsx" afterPath="$PROJECT_DIR$/imports/ui/components/TestTube.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imports/ui/containers/AppContainer.jsx" afterPath="$PROJECT_DIR$/imports/ui/containers/AppContainer.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/methods/add-facebook-data.js" afterPath="$PROJECT_DIR$/server/methods/add-facebook-data.js" />
     </list>
     <ignored path="Facebook.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppContainer.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AppContainer.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imports/ui/containers/AppContainer.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.6812796">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -125,10 +113,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="measuring-stick.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="measuring-stick.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/stylesheets/measuring-stick.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12345679">
+            <state vertical-scroll-proportion="-2.9411764">
               <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
               <folding />
             </state>
@@ -198,9 +186,9 @@
         <option value="$PROJECT_DIR$/imports/startup/server/endpoints.js" />
         <option value="$PROJECT_DIR$/server/methods/add-facebook-data.js" />
         <option value="$PROJECT_DIR$/imports/ui/components/TestTube.jsx" />
-        <option value="$PROJECT_DIR$/imports/ui/containers/AppContainer.jsx" />
         <option value="$PROJECT_DIR$/client/stylesheets/test-tube.scss" />
         <option value="$PROJECT_DIR$/client/stylesheets/measuring-stick.scss" />
+        <option value="$PROJECT_DIR$/imports/ui/containers/AppContainer.jsx" />
       </list>
     </option>
   </component>
@@ -1060,10 +1048,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/containers/AppContainer.jsx">
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/measuring-stick.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        <state vertical-scroll-proportion="-2.9411764">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -1076,10 +1064,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/measuring-stick.scss">
+    <entry file="file://$PROJECT_DIR$/imports/ui/containers/AppContainer.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12345679">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.6812796">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>

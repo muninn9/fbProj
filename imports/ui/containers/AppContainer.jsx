@@ -16,7 +16,7 @@ export default createContainer(() => {
     }
 
     return {
-        likes: 2000,
+        likes: likes,
         loading: !(userHandle.ready()),
         connected: Meteor.status().connected
     };
